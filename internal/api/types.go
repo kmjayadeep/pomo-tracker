@@ -12,7 +12,7 @@ var (
 )
 
 type Pomo struct {
-  Id int `json:"id"`
+  ID int `json:"id"`
   StartedAt time.Time `json:"startedAt"`
   StoppedAt time.Time `json:"stoppedAt"`
   Status PomoStatus `json:"status"`
